@@ -23,7 +23,7 @@
           <!-- end content -->
   
           <footer class="c-footer">
-            <div><strong>KASIRKU</strong> &copy; 2022 - Alfeus Putra Hersandi.</div>
+            <div><strong>KASIRKU</strong> &copy; 2023 - Alfeus Putra Hersandi.</div>
           </footer>
         </div>
       </div>
