@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Report Profits - Aplikasi Kasir</title>
+        <title>Report Profits - KASIRKU</title>
     </Head>
     <main class="c-main">
         <div class="container-fluid">

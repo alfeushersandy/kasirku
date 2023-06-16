@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Forgot Password - Aplikasi Kasir</title>
+        <title>Forgot Password - KASIRKU</title>
     </Head>
     <div class="col-md-4">
         <div class="fade-in">

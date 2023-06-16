@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Update Password - Aplikasi Kasir</title>
+        <title>Update Password - KASIRKU</title>
     </Head>
     <div class="col-md-4">
         <div class="fade-in">

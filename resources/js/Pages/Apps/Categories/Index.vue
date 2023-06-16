@@ -34,8 +34,8 @@
                                             <td>{{ category.name }}</td>
                                             <td class="text-center"><img :src="category.image" width="40"></td>
                                             <td class="text-center">
-                                                <Link :href="`/apps/categories/${category.id}/edit`" class="btn btn-success btn-sm me-2"><i class="fa fa-pencil-alt me-1"></i> EDIT</Link>
-                                                <button  @click.prevent="destroy(category.id)" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> DELETE</button>
+                                                <Link :href="`/apps/categories/${category.id}/edit`" v-if="hasAnyPermission(['categories.edit'])" class="btn btn-success btn-sm me-2"><i class="fa fa-pencil-alt me-1"></i> EDIT</Link>
+                                                <button @click.prevent="destroy(category.id)" v-if="hasAnyPermission(['categories.delete'])" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> DELETE</button>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -65,6 +65,9 @@
     
     //import inertia adapter
     import { Inertia } from '@inertiajs/inertia';
+
+    //import sweet alert2
+    import Swal from 'sweetalert2';
 
     export default {
         //layout
@@ -97,6 +100,7 @@
                 });
             }
 
+            //method destroy
             const destroy = (id) => {
                 Swal.fire({
                     title: 'Are you sure?',

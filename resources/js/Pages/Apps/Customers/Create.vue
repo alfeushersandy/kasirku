@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Add New Customer - Aplikasi Kasir</title>
+        <title>Add New Customer - KASIRKU</title>
     </Head>
     <main class="c-main">
         <div class="container-fluid">

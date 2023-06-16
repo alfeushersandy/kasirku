@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>Transactions - Aplikasi Kasir</title>
+        <title>Transactions - KASIRKU</title>
     </Head>
     <main class="c-main">
         <div class="container-fluid">
